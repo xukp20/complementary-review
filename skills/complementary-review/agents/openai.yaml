@@ -1,0 +1,8 @@
+interface:
+  display_name: "Complementary Review"
+  short_description: "Divide planning and review between Claude and Codex by strength"
+  default_prompt: "Use $complementary-review to review this plan from the other agent. Focus on its typical failure modes, accept its strengths, and mark what needs my decision."
+
+# Discovery supports writing or reviewing work exchanged with the other agent.
+policy:
+  allow_implicit_invocation: true
