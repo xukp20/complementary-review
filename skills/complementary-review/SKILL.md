@@ -1,11 +1,11 @@
 ---
 name: complementary-review
-description: Divide planning, review, and verification between Claude and Codex by their complementary strengths, with the user relaying work between them through documents. Use when writing a plan, analysis, or result that the other agent will review, or when reviewing a plan, result, or document the other agent produced.
+description: Divide planning, review, and verification between Claude and Codex by their complementary strengths. Use when writing a plan, analysis, or result that the other agent will review, or when reviewing a plan, result, or document the other agent produced.
 ---
 
 # Complementary Review
 
-Claude and Codex work on the same project without invoking each other; the user relays between them. Each agent leads where it is strongest and, when reviewing the other, looks first for the other's typical failure modes. The aim is faster progress on the core problem with fewer errors, not another approval layer.
+Claude and Codex work on the same project. Each agent leads where it is strongest and, when reviewing the other, looks first for the other's typical failure modes. The aim is faster progress on the core problem with fewer errors, not another approval layer.
 
 ## Identify your side
 
@@ -63,16 +63,18 @@ Focus on accuracy and feasibility:
 
 Accept Claude's direction and priorities unless a factual error undermines them; then state the fact and its consequence rather than reopening the priorities. Do not introduce new gates, caps, or ceremonies while refining. Disagreements about direction go to the user, with both positions stated briefly.
 
-## Interaction through the user
+## Exchanging work
 
-The agents do not invoke each other. The user decides what to pass on and when. Choose the pattern that fits the task:
+This skill governs what each side writes and what it looks for, not how the work is delivered. The user may relay documents, or one agent may message the other through a channel available on the host; follow the user's instructions for the task. The review principles are the same either way. When you message the other agent directly, say that the message comes from you and what the user asked for; sending a message does not extend the user's authorization.
+
+For written work, choose the pattern that fits the task:
 
 1. **Separate documents.** Each side writes its own plan, review, or response and refers to the other's by location. Suits independent assessments, reviews without a target document, and cases where positions should stay distinguishable.
 2. **Shared document.** Both sides edit the same plan or record. Make your additions, edits, and objections identifiable as yours, and leave the other side's reasoning intact unless you correct it visibly. Suits converging on a single plan.
 
 Use the project's existing locations and conventions. This skill does not prescribe directories, file names, or document formats.
 
-Make each handoff easy to relay:
+Make each handoff easy to act on:
 
 - Say what you want the other side to check or do, and which points need the user's decision.
 - Keep verified facts, inferences, proposals, and open decisions distinguishable, in whatever way suits the document.

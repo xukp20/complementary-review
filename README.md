@@ -23,7 +23,7 @@
   <a href="LICENSE">MIT License</a>
 </p>
 
-`complementary-review` divides planning, review, and verification between Claude and Codex according to their strengths. The same skill installs on both agents; each reads the guidance for its own side. The agents never call each other: the user relays work between them through documents.
+`complementary-review` divides planning, review, and verification between Claude and Codex according to their strengths. The same skill installs on both agents; each reads the guidance for its own side. The skill is independent of how work moves between the agents: the user can relay documents, or one agent can message the other when the user asks.
 
 ## Why
 
@@ -49,6 +49,8 @@ The skill does not prescribe directories, file names, or document formats. It ad
 | --- | --- |
 | Separate documents | Independent assessments, reviews without a target document, or positions that should stay distinguishable |
 | Shared document | Converging on one plan; each side marks its own edits and objections and leaves the other's reasoning intact |
+
+Delivery is a separate choice. The user relays the documents, or asks one agent to message the other through a channel available on the host; the review principles do not change.
 
 ## Use
 
